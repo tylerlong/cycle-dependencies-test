@@ -1,9 +1,9 @@
-import Child from './child';
+import { ChildInterface } from './interfaces';
 
 class Parent {
-  child: Child;
+  child: ChildInterface;
 
-  constructor(child: Child) {
+  constructor(child: ChildInterface) {
     this.child = child;
   }
 }
